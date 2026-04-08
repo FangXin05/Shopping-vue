@@ -21,6 +21,7 @@ const router = new VueRouter({
     {
       path: '/',
       component: LayoutIndex,
+      redirect: '/LayoutHome',
       children: [
         { path: '/LayoutHome', name: 'layoutHome', component: LayoutHome },
         { path: '/LayoutCart', name: 'layoutCart', component: LayoutCart },
