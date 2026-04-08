@@ -1,11 +1,7 @@
 <template>
   <div id="app">
-    <!-- 测试代码 -->
-     <van-button type="primary">主要按钮</van-button>
-     <van-button type="info">信息按钮</van-button>
-     <van-button type="default">默认按钮</van-button>
+    <div class="box"></div>
       <router-view/>
-      <van-switch v-model="checked" />
   </div>
 </template>
 
@@ -13,12 +9,12 @@
 export default {
   data () {
     return {
-      checked: false
+
     }
   }
 }
+
 </script>
 
 <style lang="less">
-
 </style>
